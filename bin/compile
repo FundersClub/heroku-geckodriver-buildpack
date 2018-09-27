@@ -50,7 +50,7 @@ topic "Installing Geckodriver."
 #!/usr/bin/env bash
 mkdir /app/vendor/geckodriver
 cd /app/vendor/geckodriver
-wget https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-linux64.tar.gz
+wget https://github.com/mozilla/geckodriver/releases/download/v0.22.0/geckodriver-v0.22.0-linux64.tar.gz
 tar -xvzf geckodriver*
 chmod +x geckodriver
 export PATH=$PATH:/app/vendor/geckodriver/geckodriver
